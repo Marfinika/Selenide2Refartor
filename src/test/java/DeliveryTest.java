@@ -1,15 +1,11 @@
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Calendar;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -22,12 +18,6 @@ class DeliveryTest {
 
     String planningDate = generateDate(4);
 
-    //public static String dateGenerator() {
-    //DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
-    //Calendar c = Calendar.getInstance();
-    //c.add(Calendar.DATE, 4);
-    //return dateFormat.format(c.getTime());
-    //}
 
 
     @Test
