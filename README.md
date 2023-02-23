@@ -19,7 +19,7 @@
 
 Условия: если все поля заполнены корректно, то форма переходит в состояние загрузки:
 
-![](pic/loading.png)
+![](https://raw.githubusercontent.com/Marfinika/aqa-homeworks/master/selenide/pic/order.png)
 
 Важно: состояние загрузки не должно длиться более 15 секунд.
 
